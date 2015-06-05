@@ -26,8 +26,8 @@ public class MailUtils {
 		props.put("mail.debug", "true");
 		props.put("mail.store.protocol", "pop3");
 		props.put("mail.transport.protocol", "smtp");
-		final String username = "s.tyagi@ost.orcid.org";//
-		final String password = "Tyag!1011";
+		final String username = "";// Add your user and password
+		final String password = "";
 		try {
 			Session session = Session.getDefaultInstance(props,
 					new Authenticator() {
