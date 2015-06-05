@@ -1,0 +1,13 @@
+.main {
+	background: url(<%= request.getContextPath()%>/resources/images/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 750px;
+}
+.contentBox {
+	position: relative;
+	margin-left: 5px;
+	margin-top: 5px;
+}
